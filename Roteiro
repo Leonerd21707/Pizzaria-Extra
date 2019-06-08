@@ -1,0 +1,70 @@
+A empresa FS lhe contratou para desenvolver um software para realizar o cadastro de pizzarias da região. 
+
+Ela quer apenas realizar a listagem de todas as pizzarias e o cadastro de novas.
+
+
+Todos os usuários poderão visualizar todas as pizzarias (essa parte do site/mobile ficará disponível para todos visualizarem).
+
+
+Somente o administrador Gandolf poderá realizar o cadastro de novas pizzarias.
+
+ 
+
+A única diferença é que as pizzarias deverão conter uma opção (um checkbox, por exemplo) para informar se elas possuem ou não opção vegana. 
+
+Além, elas deverão ter uma categoria de preço. 
+
+Podendo ser categoria $ (até 30 reais a pizza), $$ (de 31 até 50) ou $$$ (acima de 50 reais o valor da pizza).
+
+
+
+Os usuários deverão conter apenas email e senha. Usuário padrão: Gandolf. Senha: 132.
+As pizzarias deverão conter endereço, um telefone comercial, nome, se possui opção vegana e a categoria.
+
+
+
+Neste desafio, você deverá entregas as atividades abaixo que seguem:
+
+
+Script de criação do banco.
+
+Script de inserção.
+
+Script de seleção (selecionando todos os usuários, selecionando todas as pizzarias e realizando a seleção de todas as pizzarias com suas respectivas categorias).
+
+
+
+BackEnd
+API contendo os seguintes endpoints:
+
+
+Cadastro de novas pizzarias (somente o admin poderá realizar).
+
+Listagem de todas as pizzarias
+
+
+Item extra: 
+busca de pizzaria por nome
+
+.
+
+Na etapa de FrontEnd/Mobile você poderá escolher se deseja realizar a visualização da lista de pizzarias no mobile OU no frontend. 
+
+Não sendo necessário desenvolver os dois.
+
+
+Seria interessante que o administrador pudesse cadastrar no FrontEnd também.
+
+
+
+Deverá ser criado um repositório no GitHub com o nome:
+
+senai-pizzarias-extra e deverá ser compartilhado individualmente com os professores.
+
+
+Você tem até domingo, dia 09/06 para nos entregar toda a atividade proposta.
+
+E é claro, poderá realizar perguntas e vir em nosso auxílio durante o desenvolvimento.
+
+Sucesso em sua jornada.
+Até!
