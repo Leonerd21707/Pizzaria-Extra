@@ -1,0 +1,14 @@
+C:\Users\Cristian Silva\source\repos\BackEnd\pizzaria-extra-api\pizzaria-extra-api\bin\Debug\netcoreapp2.2\pizzaria-extra-api.deps.json
+C:\Users\Cristian Silva\source\repos\BackEnd\pizzaria-extra-api\pizzaria-extra-api\bin\Debug\netcoreapp2.2\pizzaria-extra-api.runtimeconfig.json
+C:\Users\Cristian Silva\source\repos\BackEnd\pizzaria-extra-api\pizzaria-extra-api\bin\Debug\netcoreapp2.2\pizzaria-extra-api.runtimeconfig.dev.json
+C:\Users\Cristian Silva\source\repos\BackEnd\pizzaria-extra-api\pizzaria-extra-api\bin\Debug\netcoreapp2.2\pizzaria-extra-api.dll
+C:\Users\Cristian Silva\source\repos\BackEnd\pizzaria-extra-api\pizzaria-extra-api\obj\Debug\netcoreapp2.2\pizzaria-extra-api.csprojAssemblyReference.cache
+C:\Users\Cristian Silva\source\repos\BackEnd\pizzaria-extra-api\pizzaria-extra-api\obj\Debug\netcoreapp2.2\pizzaria-extra-api.csproj.CoreCompileInputs.cache
+C:\Users\Cristian Silva\source\repos\BackEnd\pizzaria-extra-api\pizzaria-extra-api\obj\Debug\netcoreapp2.2\pizzaria-extra-api.RazorAssemblyInfo.cache
+C:\Users\Cristian Silva\source\repos\BackEnd\pizzaria-extra-api\pizzaria-extra-api\obj\Debug\netcoreapp2.2\pizzaria-extra-api.RazorAssemblyInfo.cs
+C:\Users\Cristian Silva\source\repos\BackEnd\pizzaria-extra-api\pizzaria-extra-api\obj\Debug\netcoreapp2.2\pizzaria-extra-api.AssemblyInfoInputs.cache
+C:\Users\Cristian Silva\source\repos\BackEnd\pizzaria-extra-api\pizzaria-extra-api\obj\Debug\netcoreapp2.2\pizzaria-extra-api.AssemblyInfo.cs
+C:\Users\Cristian Silva\source\repos\BackEnd\pizzaria-extra-api\pizzaria-extra-api\obj\Debug\netcoreapp2.2\pizzaria-extra-api.RazorTargetAssemblyInfo.cache
+C:\Users\Cristian Silva\source\repos\BackEnd\pizzaria-extra-api\pizzaria-extra-api\bin\Debug\netcoreapp2.2\pizzaria-extra-api.pdb
+C:\Users\Cristian Silva\source\repos\BackEnd\pizzaria-extra-api\pizzaria-extra-api\obj\Debug\netcoreapp2.2\pizzaria-extra-api.dll
+C:\Users\Cristian Silva\source\repos\BackEnd\pizzaria-extra-api\pizzaria-extra-api\obj\Debug\netcoreapp2.2\pizzaria-extra-api.pdb
