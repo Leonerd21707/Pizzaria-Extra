@@ -1,0 +1,128 @@
+{
+	"info": {
+		"_postman_id": "8bca791a-c9f4-4d92-beee-4e88724cb91f",
+		"name": "Senai.WebApi.Pizzaria",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Pizzarias",
+			"item": [
+				{
+					"name": "Pizzarias.Cadastro",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiR2FuZG9sZiIsImp0aSI6IjEiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJBZG1pbmlzdHJhZG9yIiwiUm9sZSI6IkFkbWluaXN0cmFkb3IiLCJleHAiOjE1NjAxMDMyODIsImlzcyI6IlBpenphcmlhLXdlYmFwaSIsImF1ZCI6IlBpenphcmlhLXdlYmFwaSJ9.u461LvcRbUN056wcK9Zv-ntpp6WSCaL7MWQBcOAzxbI",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"nomePizzaria\": \"Pizzaria Helerone\",\n    \"idCategoria\": 3,\n    \"telefone\": \"11940028958\",\n    \"opcaoVegana\": false\n}\n"
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/pizzarias/cadastro",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"pizzarias",
+								"cadastro"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Usuario.Login",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"nomeusuario\": \"Gandolf\",\n\t\"senha\": \"132\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Pizzarias.ListaComCategoria",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/pizzarias/categorias",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"pizzarias",
+								"categorias"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Pizzarias.Listagem",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/pizzarias",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"pizzarias"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
