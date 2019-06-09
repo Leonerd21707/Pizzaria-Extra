@@ -24,7 +24,7 @@ namespace pizzaria_extra_api.Controllers
         {
             UsuarioRepository = new UsuarioRepository();
         }
-        [HttpPost]
+        [HttpPost("usuario")]
         public IActionResult Post(LoginViewModel login)
         {
             try
