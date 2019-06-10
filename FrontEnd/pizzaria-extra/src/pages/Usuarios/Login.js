@@ -8,14 +8,14 @@ class Login extends Component {
       nome: "",
       senha: "",
       mensagemErro: "",
-      conexaoApi: "http://192.168.1.33:5000"
+      conexaoApi: "http://192.168.56.1:5000/api"
     }
   }
 
   _fazerLogin(evento) {
     evento.preventDefault();
 
-    Axios.post("http://192.168.56.1:5000/api/login/usuario", {
+    Axios.post(this.state.conexaoApi + "/login/usuario", {
       nomeUsuario: this.state.nome,
       senha: this.state.senha
     }).then(data => {
@@ -36,12 +36,15 @@ class Login extends Component {
 
   render() {
     return(
-      <form onSubmit={this._fazerLogin.bind(this)}>
-        <input name="nome" onChange={this._atualizaEstado.bind(this)} placeholder="Insira seu nome"/>
-        <input name="senha" onChange={this._atualizaEstado.bind(this)} placeholder="Insira sua senha"/>
-        <p>{this.state.mensagemErro}</p>
-        <button type="submit">Login</button>
-      </form>
+      <div>  
+        <h1>Login</h1>
+        <form onSubmit={this._fazerLogin.bind(this)}>
+          <input name="nome" onChange={this._atualizaEstado.bind(this)} placeholder="Insira seu nome"/>
+          <input name="senha" onChange={this._atualizaEstado.bind(this)} placeholder="Insira sua senha"/>
+          <p>{this.state.mensagemErro}</p>
+          <button type="submit">Login</button>
+        </form>
+      </div>
     );
   }
 }
